@@ -1,0 +1,69 @@
+.large-cards {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 50%;
+  font-size: 1vw;
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #d3d2d2;
+    padding: 0.25rem;
+    border-radius: 5px;
+    width: 45%;
+    // flex: 1 0 fill;
+    height: 30rem;
+
+    figure {
+      max-width: 100%;
+
+      figcaption {
+      }
+
+      img {
+        object-fit: cover;
+        max-width: 100%;
+      }
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 98%;
+      margin: 0.5rem 0;
+      font-size: 1vw;
+
+      td {
+        height: 2em;
+      }
+
+      .tleft {
+        text-align: left;
+        font-weight: 600;
+        width: 40%;
+      }
+
+      .tright {
+        text-align: right;
+      }
+    }
+
+    .realtor {
+      display: flex;
+      align-items: center;
+      align-self: flex-start;
+      margin: 0.5rem 1rem 1rem;
+
+      img {
+        max-width: 25%;
+      }
+      p {
+        margin: auto 0 auto 0.5rem;
+      }
+    }
+  }
+}
