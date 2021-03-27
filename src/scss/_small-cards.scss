@@ -25,7 +25,8 @@
     }
   }
 
-  .a {
+  .a,
+  .b {
     -webkit-box-shadow: inset 0px 0px 0px 8px rgba(135, 206, 250, 0.51);
     box-shadow: inset 0px 0px 0px 8px rgba(135, 206, 250, 0.51);
     cursor: pointer;
